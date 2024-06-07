@@ -1,0 +1,20 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #EF233C;
+  overflow: hidden;
+}
+
+.form{
+  width: auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+hr{
+  background-color: #D90429;
+  height: 5px;
+}

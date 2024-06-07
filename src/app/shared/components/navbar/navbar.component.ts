@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CloudService } from '../../services/cloud.service';
+import { CloudService } from '../../../services/cloud.service';
 
 @Component({
   selector: 'shared-navbar',
