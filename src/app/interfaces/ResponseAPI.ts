@@ -1,19 +1,10 @@
 export interface ResponseAPI {
-    user:  User;
-    token: string;
+  message: string;
+  token:   string;
+  rut:     string;
 }
 
-export interface User {
-    id:       number;
-    rut:      string;
-    name:     string;
-    birthday: Date;
-    email:    string;
-    isActive: boolean;
-    gender:   Gender;
-}
-
-export interface Gender {
-    id:   number;
-    type: string;
+export interface ResponseAPIErorr {
+  message: string;
+  error:   string;
 }

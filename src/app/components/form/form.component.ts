@@ -23,7 +23,7 @@ export class FormComponent implements OnInit{
 
   createForm(){
     this.forms = this.formBuilder.group({
-      email: ['', [Validators.required, Validators.email]],
+      username: ['', [Validators.required]],
       password: ['', [Validators.required]],
     });
   }
@@ -32,7 +32,6 @@ export class FormComponent implements OnInit{
     if (this.forms.invalid) return;
 
     try{
-
       const response = await this.CloudService.login(this.forms);
       if (response) console.log('Usuario logueado', response);
       else console.log('Usuario no logueado');

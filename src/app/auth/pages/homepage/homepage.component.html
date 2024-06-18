@@ -1,2 +1,66 @@
 <shared-navbar></shared-navbar>
 
+<div class="mx-auto p-10 flex justify-center items-center">
+  <div class="relative overflow-x-auto">
+    <table class="w-full text-lg text-left rtl:text-right text-gray-500 dark:text-gray-400">
+      <thead class="text-sm text-center text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <tr>
+          <th scope="col" class="px-6 py-3">
+            OPERACIÓN
+          </th>
+          <th scope="col" class="px-6 py-3">
+            ACCIÓN
+          </th>
+        </tr>
+      </thead>
+      <tbody class="text-center">
+        <!-- Create -->
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+          <th scope="row" class="px-6 py-4 font-medium tracking-widest text-gray-900 whitespace-nowrap dark:text-white">
+            <span class="font-bold text-purple-600">C</span>reate
+          </th>
+          <td class="px-6 py-4">
+            <button
+              class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Crear</button>
+          </td>
+        </tr>
+        <!-- Read -->
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+          <th scope="row" class="px-6 py-4 font-medium tracking-widest text-gray-900 whitespace-nowrap dark:text-white">
+            <span class="font-bold text-purple-600">R</span>ead
+          </th>
+          <td class="px-6 py-4">
+            <button type="button"
+              class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Leer</button>
+          </td>
+        </tr>
+
+        <!-- Update -->
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+          <th scope="row" class="px-6 py-4 font-medium tracking-widest text-gray-900 whitespace-nowrap dark:text-white">
+            <span class="font-bold text-purple-600">U</span>pdate
+          </th>
+          <td class="px-6 py-4">
+            <button type="button"
+              class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Actualizar</button>
+          </td>
+        </tr>
+
+        <!-- Delete -->
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+          <th scope="row" class="px-6 py-4 font-medium tracking-widest text-gray-900 whitespace-nowrap dark:text-white">
+            <span class="font-bold text-purple-600">D</span>elete
+          </th>
+          <td class="px-6 py-4">
+            <button type="button"
+              class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Eliminar</button>
+
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <auth-table></auth-table>
+  </div>
+</div>
